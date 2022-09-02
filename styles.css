@@ -1,0 +1,133 @@
+
+body {
+    background-color: #1C2541;
+    color: #5BC0BE;
+    font-family: 'Prompt', sans-serif;
+}
+
+#title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+
+}
+
+#everything {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+}
+
+
+#weather, #giphy, #boredbot, #crypto {
+    background-color: #3A506B;
+    width: 90%;
+    height: 50vh;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #00a6fb;
+
+}
+
+ /* Weather Component   */      
+
+
+#weather-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#temp {
+    font-weight: 800px;
+    font-size: 60px;
+    margin-bottom: auto;
+
+}
+
+
+#location {
+    font-weight: 800px;
+    font-size: 35px;
+    margin-bottom:auto;
+
+}
+
+/* Making wind speed and desc not bold  */ 
+
+.desc {
+    font-weight: 200;
+}
+
+
+
+ #wind {
+    height: 50px;
+    width: 50px;
+ }
+
+
+ #weather-img {
+    height:auto;
+    width: 120px;
+    margin-bottom:auto;
+
+ }
+
+
+/* All inputs and buttons  */  
+
+
+
+/* Inputs */   
+
+#city, #gif-input {
+    background-color: #00a6fb;
+    color: white;
+    border-radius: 5px;
+    width: 15%;
+}
+
+
+/* Buttons */   
+#weather-btn, #gif-btn, #activity-btn {
+        padding: 7px;
+        color: white;
+        background-color: #3A506B;
+        border: 2px solid #5BC0BE;
+        font-family: 'Prompt', sans-serif;
+        border-radius: 5px;
+
+
+}
+
+
+
+
+#giphy {
+
+
+
+}
+
+#gif-images {
+   display: flex;
+   flex-wrap:wrap;
+   height: 75%;
+   
+}
+
+
+
+#gif-pics {
+    width: 33.33%;
+    object-fit: fill;
+    max-height: 100%;
+    border-radius: 16px;
+
+}
